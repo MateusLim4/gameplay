@@ -19,9 +19,9 @@ class GameCard extends StatelessWidget {
         children: [
           Container(
               decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-              width: size.width * 0.16,
+              width: size.width * 0.18,
               child:
-                  Image.asset('assets/images/$gameImage.png', fit: BoxFit.fill)),
+                  Image.asset('assets/images/$gameImage.png', fit: BoxFit.cover)),
           SizedBox(width: size.width * 0.06),
           Container(
             width: size.width * 0.66,
@@ -33,6 +33,7 @@ class GameCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text('Gameplay Elevada', style: AppTheme.fonts.textHeading),

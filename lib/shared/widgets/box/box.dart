@@ -20,8 +20,8 @@ class BoxWidget extends StatelessWidget {
               AppTheme.colors.boxBackground,
               AppTheme.colors.boxBackgroundGradient,
             ],
-            begin: Alignment.bottomCenter,
-            end: Alignment.center,
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
           ),
           borderRadius: BorderRadius.circular(8),
           border: Border.all(color: AppTheme.colors.boxStroke)

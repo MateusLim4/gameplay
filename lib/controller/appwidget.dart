@@ -1,3 +1,4 @@
+import 'package:gameplay/modules/form/form_page.dart';
 import 'package:gameplay/modules/login/login_page.dart';
 import 'package:gameplay/modules/splash/splashpage.dart';
 import 'package:gameplay/modules/home/homepage.dart';
@@ -17,6 +18,7 @@ class AppWidget extends StatelessWidget{
         "/splash": (context) => const SplashPage(),
         "/login": (context) => const LoginPage(),
         "/homepage": (context) => const Homepage(),
+        "/form": (context) => const FormPage(),
       }
     );
   }

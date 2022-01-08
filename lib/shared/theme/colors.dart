@@ -22,7 +22,7 @@ class AppColors implements IAppColors{
   @override
   Color get textColor => const Color(0xFFDDE3F0);
   @override
-  Color get boxBackground => const Color(0xFF1D2766);
+  Color get boxBackground => const Color(0xFF182053);
   @override
   Color get boxStroke => const Color(0xFF243189);
   @override
@@ -32,9 +32,9 @@ class AppColors implements IAppColors{
   @override
   Color get thinTextColor => const Color(0xFF7C89A3);
   @override
-  Color get background => const Color(0xFF0E1545);
+  Color get background => const Color(0xFF0B1137);
   @override
-  Color get backgroundGradient => const Color(0xFF0B1034);
+  Color get backgroundGradient => const Color(0xFF0D133D);
   @override
-  Color get boxBackgroundGradient => const Color(0xFF171F52);
+  Color get boxBackgroundGradient => const Color(0xFF1D2765);
 }

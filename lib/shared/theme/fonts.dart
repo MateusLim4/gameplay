@@ -14,6 +14,7 @@ abstract class IAppFonts{
   get titleHome;
   get subtitleHome;
   get titleBox;
+  get heading;
 }
 
 class AppFonts implements IAppFonts{
@@ -27,6 +28,12 @@ class AppFonts implements IAppFonts{
   TextStyle get subtitle => GoogleFonts.rajdhani(
     fontSize: 18,
     fontWeight: FontWeight.normal,
+    color: AppTheme.colors.textColor
+  );
+  @override
+  TextStyle get heading => GoogleFonts.rajdhani(
+    fontSize: 20,
+    fontWeight: FontWeight.bold,
     color: AppTheme.colors.textColor
   );
   @override

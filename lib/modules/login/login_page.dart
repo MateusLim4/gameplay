@@ -17,7 +17,7 @@ class LoginPage extends StatelessWidget {
               AppTheme.colors.backgroundGradient,
             ],
             begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
+            end: const Alignment(0.7, 0),
           ),
         ),
         child: Column(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
